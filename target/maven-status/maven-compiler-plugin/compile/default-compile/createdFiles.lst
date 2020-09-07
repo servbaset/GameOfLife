@@ -1,0 +1,6 @@
+ir/raikadev/rule/Rule.class
+ir/raikadev/cell/Cell$CellStatus.class
+ir/raikadev/game/GameOfLife.class
+ir/raikadev/cell/Cell.class
+ir/raikadev/cell/Cell$1.class
+ir/raikadev/run/Run.class

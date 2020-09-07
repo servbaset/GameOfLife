@@ -1,1 +1,0 @@
-# GameOfLife with java
