@@ -6,10 +6,6 @@ public class Cell {
 
     private CellStatus cellStatus;
 
-    public enum CellStatus {
-        DEAD, ALIVE
-    }
-
     public Cell( int rowPosition, int columnPosition, CellStatus cellStatus ) {
         this.rowPosition = rowPosition;
         this.columnPosition = columnPosition;
@@ -51,5 +47,9 @@ public class Cell {
             case DEAD -> " ";
             case ALIVE -> "\u25A0";
         };
+    }
+
+    public enum CellStatus {
+        DEAD, ALIVE
     }
 }
